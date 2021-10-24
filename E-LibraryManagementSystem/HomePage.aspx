@@ -28,14 +28,14 @@
               <div class="row">
                  <div class="col-md-4">
                      <center>
-                        <img src="images/search-online.png" />
+                        <img width="150px" src="images/search-online.png" />
                      </center>
                  </div> 
             </div>
               <div class="row">
                  <div class="col-md-4">
                      <center>
-                        <img src="images/defaulters-list.png" />
+                        <img width="150px" src="images/defaulters-list.png" />
                      </center>
                  </div> 
             </div>
