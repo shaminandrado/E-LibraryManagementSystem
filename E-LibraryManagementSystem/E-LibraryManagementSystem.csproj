@@ -127,8 +127,8 @@
     <Content Include="HomePage.aspx" />
     <Content Include="Main.Master" />
     <Content Include="UserLogin.aspx" />
+    <Content Include="UserProfile.aspx" />
     <Content Include="UserSignUp.aspx" />
-    <Content Include="WebForm1.aspx" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -1851,19 +1851,19 @@
     <Compile Include="UserLogin.aspx.designer.cs">
       <DependentUpon>UserLogin.aspx</DependentUpon>
     </Compile>
+    <Compile Include="UserProfile.aspx.cs">
+      <DependentUpon>UserProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserProfile.aspx.designer.cs">
+      <DependentUpon>UserProfile.aspx</DependentUpon>
+    </Compile>
     <Compile Include="UserSignUp.aspx.cs">
       <DependentUpon>UserSignUp.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="UserSignUp.aspx.designer.cs">
       <DependentUpon>UserSignUp.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup />
