@@ -10,7 +10,7 @@
 namespace E_LibraryManagementSystem {
     
     
-    public partial class UserSignUp {
+    public partial class AdminSignUp {
         
         /// <summary>
         /// UsrRegFulName control.

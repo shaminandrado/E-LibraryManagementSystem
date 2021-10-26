@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="UserSignUp.aspx.cs" Inherits="E_LibraryManagementSystem.UserSignUp" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="AdminSignUp.aspx.cs" Inherits="E_LibraryManagementSystem.AdminSignUp" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -11,7 +11,7 @@
                        <div class="row">
                         <div class="col">
                             <center>
-                                <img width="100px" src="images/generaluser.png"/>
+                                <img width="100px" src="images/adminuser.png"/>
                             </center>
                         </div>
                       </div>
@@ -128,5 +128,4 @@
             </div>
         </div>
     </div>
-
 </asp:Content>
