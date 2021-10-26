@@ -69,6 +69,7 @@
     <Content Include="AboutUs.aspx" />
     <Content Include="AdminLogin.aspx" />
     <Content Include="AdminSignUp.aspx" />
+    <Content Include="AuthorManagement.aspx" />
     <Content Include="css\customStylesheet.css" />
     <Content Include="fontawesome\less\brands.less" />
     <Content Include="fontawesome\less\fontawesome.less" />
@@ -126,6 +127,7 @@
     <Content Include="fontawesome\webfonts\fa-solid-900.woff2" />
     <Content Include="HomePage.aspx" />
     <Content Include="Main.Master" />
+    <Content Include="PublisherManagement.aspx" />
     <Content Include="UserLogin.aspx" />
     <Content Include="UserProfile.aspx" />
     <Content Include="UserSignUp.aspx" />
@@ -1829,6 +1831,13 @@
     <Compile Include="AdminSignUp.aspx.designer.cs">
       <DependentUpon>AdminSignUp.aspx</DependentUpon>
     </Compile>
+    <Compile Include="AuthorManagement.aspx.cs">
+      <DependentUpon>AuthorManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AuthorManagement.aspx.designer.cs">
+      <DependentUpon>AuthorManagement.aspx</DependentUpon>
+    </Compile>
     <Compile Include="HomePage.aspx.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1844,6 +1853,13 @@
       <DependentUpon>Main.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PublisherManagement.aspx.cs">
+      <DependentUpon>PublisherManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PublisherManagement.aspx.designer.cs">
+      <DependentUpon>PublisherManagement.aspx</DependentUpon>
+    </Compile>
     <Compile Include="UserLogin.aspx.cs">
       <DependentUpon>UserLogin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
